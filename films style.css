@@ -1,0 +1,19 @@
+img:hover{
+    box-shadow: 10px 10px 5px black;
+    height: 55%;
+    transition : all 1s;
+    transform: scale(1.1);                                                                                                
+  
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    margin:20px 30px ;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+h3:hover{
+    background-color: aliceblue;
+    color:#2b5876
+}
+

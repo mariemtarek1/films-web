@@ -1,0 +1,25 @@
+body{
+    background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+img{
+    border: solid 3px black; border-radius: 100px;
+}
+video{
+    border: solid 3px black;
+}
+.h2{
+    color:#0f2027;
+}
+img{
+    margin: 10px;
+    width:250;height:300
+   
+}
+img:hover{
+    box-shadow: 10px 10px 5px black;
+    height: 50%;
+    transition : all 1s;
+    transform: scale(1.1);                      
+}

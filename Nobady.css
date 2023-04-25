@@ -1,0 +1,27 @@
+.body{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+img{
+    border: solid 3px rgb(173, 188, 208) ; border-radius: 100px;
+}
+
+.h2{
+    color:#0f2027;
+}
+vedio{
+     border: solid 3px  rgb(163, 199, 206);
+}
+img{
+    margin: 10px;
+    width:250;height:300
+   
+}
+img:hover{
+    box-shadow: 10px 10px 5px black;
+    height: 50%;
+    transition : all 1s;
+    transform: scale(1.1);                      
+}
